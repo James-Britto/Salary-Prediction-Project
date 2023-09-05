@@ -6,3 +6,5 @@ flask
 requests
 joblib
 category_encoders
+xgboost
+plotly
