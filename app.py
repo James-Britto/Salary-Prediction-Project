@@ -13,12 +13,11 @@ def Home():
 @app.route("/predict", methods=['POST'])
 def predict():
     if request.method == 'POST':
-        Age = request.form['age']
         Gender= request.form['gender']
         Education_Level= request.form['education']
         Job_Title= request.form['job_title']
         Years_of_experience= request.form['yoe']
-        df=pd.DataFrame({'Age':[Age],'Years_of_Experience':[Years_of_experience],'Education_Level':[Education_Level],'Gender':[Gender],'Job_Title':[Job_Title]})
+        df=pd.DataFrame({'Years_of_Experience':[Years_of_experience],'Education_Level':[Education_Level],'Gender':[Gender],'Job_Title':[Job_Title]})
         df=processor.transform(df)
         prediction=model.predict(df)
         return render_template('index.html',prediction_output=f"Your expected salary is Rs. {round(prediction[0],2)}")
