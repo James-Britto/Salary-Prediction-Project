@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <div style="color:blue">
+    <div class=fonts>
         <form action="{{ url_for('predict')}}" method="post">
-            <h1 style="color:antiquewhite; font-size:50px">Salary Prediction App</h1>
+            <h1 style="color:blue; font-size:50px"><i>Salary Prediction App</i></h1>
             <h3>Gender</h3>
 	    <select id="fuel" name="gender">
   	        <option value="Male">Male</option>
@@ -224,7 +224,7 @@
 
             </select>
 
-            <h3>Year of Experience</h3>
+            <h3>Years of Experience</h3>
 	    <input type="number" id="first" name="yoe">
 
             <br><br><button id="sub" type="submit ">Predict</button>
@@ -234,7 +234,7 @@
 
 
 
-        <br><br><h2>{{ prediction_output }}<h2>
+        <h2>{{ prediction_output }}<h2>
     </div>
 
 
@@ -242,10 +242,25 @@
 
     <style>
         body {
-	    background-color: darkgoldenrod;
+	    background-color: white;
             text-align: center;
             padding: 0px;
+	    background-image: url("o-SALARY-facebook.jpg.crdownload");
+  	    background-repeat: no-repeat;
+  	    background-size: cover;
+	    background-opacity: 0.2;
         }
+	
+	.fonts{
+		color: white;
+		font-size: 23px;
+		border-color: black;
+            	border-style: solid;
+		background-color: rgb(255, 131, 61);
+		opacity: 0.9;
+		
+
+}
 
         #research {
             font-size: 18px;
