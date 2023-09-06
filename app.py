@@ -1,11 +1,9 @@
 from flask import Flask, render_template, request
-import requests
-import joblib
-import numpy as np
+import pickle
 import pandas as pd
 app = Flask(__name__)
-processor=joblib.load(open('model_transformer.pickle','rb'))
-model = joblib.load(open('salary_prediction.pickle','rb'))
+processor=pickle.load(open('model_transformer.pickle','rb'))
+model = pickle.load(open('salary_prediction.pickle','rb'))
 @app.route('/',methods=['GET'])
 def Home():
     return render_template('index.html')
