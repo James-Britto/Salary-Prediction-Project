@@ -1,6 +1,6 @@
 # Salary Prediction Project
 							Salary Prediction Project
-Problem Statement:
+*Problem Statement:*
 
 In today's competitive job market, it is crucial for both employers and job seekers to have an accurate understanding of salary expectations. Many factors influence salary levels, including education, experience, job role, age and industry. Therefore, the aim of this project is to develop a salary prediction model that can provide reliable estimates of salary based on various input features.
 
