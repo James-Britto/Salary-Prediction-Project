@@ -29,8 +29,8 @@ In today's competitive job market, it is crucial for both employers and job seek
 **Deliverables:**
 
 A well-documented and trained salary prediction model.
-A user-friendly interface or application for salary prediction.
-Documentation detailing the project's methodology and findings.
+A user-friendly interface or application for salary prediction.<br>
+Documentation detailing the project's methodology and findings.<br><br>
 By addressing these objectives, this project aims to provide a valuable tool for job seekers and employers to make informed decisions regarding salary expectations, ultimately contributing to a more transparent and efficient job market.
 
 **Data collection:**
