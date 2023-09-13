@@ -34,8 +34,8 @@ Documentation detailing the project's methodology and findings.
 By addressing these objectives, this project aims to provide a valuable tool for job seekers and employers to make informed decisions regarding salary expectations, ultimately contributing to a more transparent and efficient job market.
 
 **Data collection:**
-I downloaded this dataset from Kaggle.
-Feature Description
+I downloaded this dataset from Kaggle.<br>
+**Feature Description**
 Age: The age of the individual to which the observation belongs to.
 Gender: The gender of the individual to which the observation belongs to.
 Education: The educational qualification of the individual.
