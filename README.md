@@ -28,9 +28,9 @@ In today's competitive job market, it is crucial for both employers and job seek
 
 **Deliverables:**
 
-A well-documented and trained salary prediction model.
-A user-friendly interface or application for salary prediction.<br>
-Documentation detailing the project's methodology and findings.<br><br>
+- A well-documented and trained salary prediction model.<br>
+- A user-friendly interface or application for salary prediction.<br>
+- Documentation detailing the project's methodology and findings.<br><br>
 By addressing these objectives, this project aims to provide a valuable tool for job seekers and employers to make informed decisions regarding salary expectations, ultimately contributing to a more transparent and efficient job market.
 
 **Data collection:**
@@ -42,3 +42,29 @@ I downloaded this dataset from Kaggle.<br>
 **Job Title:** The Job title of the individual they are currently in.<br>
 **Years of Experience:** This feature tells how many years of experience the individual currently have.<br>
 **Salary (Target Feature):** This feature tells the salary of the individual.
+
+**Outline of Data:**
+- The dataset has total observations of 6704 and 6 features.
+- All 6 features has some null values.
+- The dataset has 3 float (including target) and 3 object datatypes.
+
+**Insights from Exploratory Data Analysis;**
+ - The most people are in the age range between 25-40.
+ - The most people have experience of 0-10 years.
+ - The distribution of the age and Years of experience features skewed towards left.
+ - The distribution of the Salary (target) column follows a normal distribution.
+ - From the scatter plot we can see that:
+ `The age Years of Experience and salary have positive relationship. It is obvious that as age increases the experience also increases, so that salary is.`
+  - As the Education Level increases the median salary of a person also increases.
+  - The median salary of a person with qualification High School is around 40000 whereas a person with PhD degree is 175000
+  - The Top 10 roles earning high salaries are:
+  
+    - Chief Executive Officer
+    - Chief Technology Officer
+    - Chief Data Officer
+    - Director of Data Science
+    - Vice President of Finance
+    - Operations Director
+    - Vice President of Operations
+    - Director of Human Resources
+    - Marketing Director
