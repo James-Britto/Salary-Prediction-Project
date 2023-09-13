@@ -69,7 +69,8 @@ I downloaded this dataset from Kaggle.<br>
     - Director of Human Resources
     - Marketing Director
 <br>
-**Summary**<br>
+
+**Summary:** <br>
 - Created a Pandas dataframe and loaded the dataset.<br>
 - Conducted comprehensive data preprocessing, including checking feature datatypes, handling missing values, addressing duplicates, and ensuring data integrity.<br>
 - Performed univariate and bivariate analyses to gain insights into feature distributions and relationships.<br>
