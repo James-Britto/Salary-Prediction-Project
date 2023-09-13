@@ -35,9 +35,10 @@ By addressing these objectives, this project aims to provide a valuable tool for
 
 **Data collection:**
 I downloaded this dataset from Kaggle.<br>
-**Feature Description**
-Age: The age of the individual to which the observation belongs to.
-Gender: The gender of the individual to which the observation belongs to.
-Education: The educational qualification of the individual.
-Job Title: The Job title of the individual they are currently in.
-Years of Experience: This feature tells how many years of experience the individual currently have.
+**Feature Description:**<br>
+**Age:** The age of the individual to which the observation belongs to.<br>
+**Gender:** The gender of the individual to which the observation belongs to.<br>
+**Education:** The educational qualification of the individual.<br>
+**Job Title:** The Job title of the individual they are currently in.<br>
+**Years of Experience:** This feature tells how many years of experience the individual currently have.<br>
+**Salary (Target Feature):** This feature tells the salary of the individual.
