@@ -48,7 +48,7 @@ I downloaded this dataset from Kaggle.<br>
 - All 6 features has some null values.
 - The dataset has 3 float (including target) and 3 object datatypes.
 
-**Insights from Exploratory Data Analysis;**
+**Insights from Exploratory Data Analysis:**
  - The most people are in the age range between 25-40.
  - The most people have experience of 0-10 years.
  - The distribution of the age and Years of experience features skewed towards left.
@@ -70,14 +70,14 @@ I downloaded this dataset from Kaggle.<br>
     - Marketing Director
 <br>
 **Summary**
-- Created a Pandas dataframe and loaded the dataset.
-- Conducted comprehensive data preprocessing, including checking feature datatypes, handling missing values, addressing duplicates, and ensuring data integrity.
-- Performed univariate and bivariate analyses to gain insights into feature distributions and relationships.
-- Assessed feature importance using a correlation matrix.
-- Applied Feature Encoding to convert categorical variables into numerical format.
-- Utilized Feature Scaling to normalize the range of numerical features.
-- Developed multiple models: Lasso Regression, Random Forest, XGBoost, Support Vector Machine, and KNeighbors Regressor.
-- Conducted hyperparameter tuning for each model to enhance prediction accuracy.
-- Evaluated model performance using metrics like Root Mean Square Error, R2 Score, and Mean Absolute Percentage Error on both training and testing data.
-- Achieved an impressive **93%** overall accuracy with the XGBoost Regressor in predicting the target variable (Salary) with minimal error.
+- Created a Pandas dataframe and loaded the dataset.<br>
+- Conducted comprehensive data preprocessing, including checking feature datatypes, handling missing values, addressing duplicates, and ensuring data integrity.<br>
+- Performed univariate and bivariate analyses to gain insights into feature distributions and relationships.<br>
+- Assessed feature importance using a correlation matrix.<br>
+- Applied Feature Encoding to convert categorical variables into numerical format.<br>
+- Utilized Feature Scaling to normalize the range of numerical features.<br>
+- Developed multiple models: Lasso Regression, Random Forest, XGBoost, Support Vector Machine, and KNeighbors Regressor.<br>
+- Conducted hyperparameter tuning for each model to enhance prediction accuracy.<br>
+- Evaluated model performance using metrics like Root Mean Square Error, R2 Score, and Mean Absolute Percentage Error on both training and testing data.<br>
+- Achieved an impressive **93%** overall accuracy with the XGBoost Regressor in predicting the target variable (Salary) with minimal error.<br>
 - Saved the final model as a pickle file for seamless integration into a Flask App.
