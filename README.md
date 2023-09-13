@@ -68,3 +68,16 @@ I downloaded this dataset from Kaggle.<br>
     - Vice President of Operations
     - Director of Human Resources
     - Marketing Director
+<br>
+**Summary**
+- Created a Pandas dataframe and loaded the dataset.
+- Conducted comprehensive data preprocessing, including checking feature datatypes, handling missing values, addressing duplicates, and ensuring data integrity.
+- Performed univariate and bivariate analyses to gain insights into feature distributions and relationships.
+- Assessed feature importance using a correlation matrix.
+- Applied Feature Encoding to convert categorical variables into numerical format.
+- Utilized Feature Scaling to normalize the range of numerical features.
+- Developed multiple models: Lasso Regression, Random Forest, XGBoost, Support Vector Machine, and KNeighbors Regressor.
+- Conducted hyperparameter tuning for each model to enhance prediction accuracy.
+- Evaluated model performance using metrics like Root Mean Square Error, R2 Score, and Mean Absolute Percentage Error on both training and testing data.
+- Achieved an impressive **93%** overall accuracy with the XGBoost Regressor in predicting the target variable (Salary) with minimal error.
+- Saved the final model as a pickle file for seamless integration into a Flask App.
