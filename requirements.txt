@@ -8,3 +8,4 @@ pickleshare
 category_encoders
 xgboost
 plotly
+streamlit
