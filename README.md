@@ -82,3 +82,4 @@ I downloaded this dataset from Kaggle.<br>
 - Evaluated model performance using metrics like Root Mean Square Error, R2 Score, and Mean Absolute Percentage Error on both training and testing data.<br>
 - Achieved an impressive **93%** overall accuracy with the XGBoost Regressor in predicting the target variable (Salary) with minimal error.<br>
 - Saved the final model as a pickle file for seamless integration into a Flask App.
+App Link: https://salary-prediction-app-28e5.onrender.com
