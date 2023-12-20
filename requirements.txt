@@ -4,7 +4,6 @@ pandas
 scikit-learn
 flask
 requests
-pickleshare
+pickle
 category_encoders
 xgboost
-plotly
